@@ -1,0 +1,15 @@
+query getAllEvents {
+  eventCollection {
+    items {
+      title
+      description {
+        json
+      }
+      image {
+        url
+        width
+        height
+      }
+    }
+  }
+}
